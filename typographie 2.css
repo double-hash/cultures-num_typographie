@@ -1,0 +1,13 @@
+h2 {
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+

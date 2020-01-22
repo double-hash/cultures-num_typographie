@@ -1,0 +1,78 @@
+@font-face {
+        font-family:"le-murmure";
+        src: url("Font/le-murmure.otf");
+    }
+
+    p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: medium;
+            text-align: justify;
+            margin-left: 90px;
+            margin-right: 90px;
+    }
+    h2 {
+            text-align: center;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+body {
+    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: "le-murmure";
+    font-size: x-large;
+}
+.onglet
+{
+        display:inline-block;
+        margin-left:3px;
+        margin-right:3px;
+        padding:3px;
+        border:1px solid rgb(255, 255, 255);
+        cursor:pointer;
+}
+.onglet a
+{
+        color:#ffffff;
+        text-decoration:none;
+        color: rgb(0, 0, 0);
+        border:1px solid rgb(255, 255, 255);
+}
+.onglet_n
+{
+        background: #ffffff;;
+        border-bottom:1px solid rgb(0, 0, 0);
+        animation: mouvement 5s infinite 5s infinite ease-in-out;
+}
+
+.onglet_y
+{
+        background:#ffffff;
+        border-bottom:0px solid rgb(0, 0, 0);
+        padding-bottom:4px;
+}
+
+.onglet_x
+{
+        background:#ffffff;
+        border-bottom:0px solid rgb(0, 0, 0);
+        padding-bottom:4px;
+}
+.contenu
+{
+        background-color:#ffffff;
+        border:1px solid rgb(0, 0, 0);
+        margin-top:-1px;
+        padding:5px;
+}
+ul
+{
+        margin-top:0px;
+        margin-bottom:0px;
+        margin-left:-10px
+}
+h1
+{
+        margin:0px;
+        padding:0px;
+}
